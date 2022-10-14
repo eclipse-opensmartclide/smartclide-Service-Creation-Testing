@@ -33,7 +33,7 @@ docker build -t smartclide-service-creation-testing-backend:latest .
 
 ## How to run Service Creation Testing
 
-All the images of this component can be found [here](https://github.com/eclipse-researchlabs/smartclide-Service-Creation-Testing/pkgs/container/smartclide%2Fservice-creation-test-generation).
+All the images of this component can be found [here](https://github.com/eclipse-opensmartclide/smartclide-Service-Creation-Testing/pkgs/container/smartclide%2Fservice-creation-test-generation).
 
 You can run the backend service with the following command:
 
