@@ -28,7 +28,6 @@ public class EndpointController {
 		return "Hello!";
 	}
 
-	@CrossOrigin(origins = "*")
 	@PostMapping("/generateTests")
 	public ResultObject createStructure(@RequestHeader String gitRepoURL, @RequestHeader String gitUsername,
 			@RequestHeader String gitToken) {
