@@ -1,19 +1,19 @@
 version: 2
 updates:
   - package-ecosystem: "maven"
-    directory: "/"
+    directory: "/src"
     schedule:
       # Check for maven dependency updates every weekday at 08:00 UTC
       interval: "daily"
       time: "08:00"
   - package-ecosystem: "github-actions"
-    directory: "/"
+    directory: "/src"
     schedule:
       # Check for updates to GitHub Actions every weekday at 08:00 UTC
       interval: "daily"
       time: "08:00"
   - package-ecosystem: "docker"
-    directory: "/"
+    directory: "/src"
     schedule:
       # Check for updates to container images every weekday at 08:00 UTC
       interval: "daily"
