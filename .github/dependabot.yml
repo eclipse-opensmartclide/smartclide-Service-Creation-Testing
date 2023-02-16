@@ -6,6 +6,8 @@ updates:
       # Check for maven dependency updates every weekday at 08:00 UTC
       interval: "daily"
       time: "08:00"
+      paths-ignore:
+      - '.github/workflows/**'
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
