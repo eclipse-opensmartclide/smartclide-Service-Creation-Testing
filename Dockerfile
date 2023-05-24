@@ -1,4 +1,4 @@
-FROM maven:3.8.4-jdk-11
+FROM maven:3.8.6-jdk-11
 
 RUN apt-get update && apt-get install -y git
 
