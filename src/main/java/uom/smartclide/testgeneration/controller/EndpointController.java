@@ -19,7 +19,6 @@ import org.springframework.web.bind.annotation.RestController;
 import uom.smartclide.testgeneration.functionality.mainFlow.MainFlow;
 import uom.smartclide.testgeneration.functionality.utils.ResultObject;
 
-@CrossOrigin(origins = "*", allowedHeaders = "*")
 @RestController
 public class EndpointController {
 
